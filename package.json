@@ -1,0 +1,24 @@
+{
+  "name": "JobsCalc",
+  "version": "1.0.0",
+  "description": "Um programa para calculo de horas para freelances",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "init-db": "node src/db/init.js",
+    "start": "node/src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "node": "^15.12.0",
+    "sqlite": "^4.0.21",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
